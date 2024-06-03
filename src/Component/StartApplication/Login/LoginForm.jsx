@@ -37,7 +37,7 @@ const LoginForm = ({
     if (isValid) {
       console.log("logForm validation success");
       try {
-        const response = await fetch("http://localhost:4000/api/login", {
+        const response = await fetch("https://backend-visa2.vercel.app/api/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

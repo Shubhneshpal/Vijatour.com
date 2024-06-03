@@ -14,7 +14,7 @@ const ValidateOTP = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:4000/api/auth/validateOtp', {
+      const response = await fetch('https://backend-visa2.vercel.app/api/auth/validateOtp', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

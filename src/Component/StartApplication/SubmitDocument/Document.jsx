@@ -57,7 +57,7 @@ const Document = () => {
     const fd = new FormData();
     fd.append("file", selectedPhoto);
     try {
-      const response = await fetch("http://localhost:4000/api/upload/photo", {
+      const response = await fetch("https://backend-visa2.vercel.app/api/upload/photo", {
         method: "post",
         body: fd,
       });
@@ -116,7 +116,7 @@ const Document = () => {
     formData.append("file2", selectedPassport);
     try {
       const response = await fetch(
-        "http://localhost:4000/api/upload/passport",
+        "https://backend-visa2.vercel.app/api/upload/passport",
         {
           method: "POST",
           body: formData,
@@ -180,7 +180,7 @@ const Document = () => {
     formData.append("file3", selectedOtherDoc);
     try {
       const response = await fetch(
-        "http://localhost:4000/api/upload/otherDoc",
+        "https://backend-visa2.vercel.app/api/upload/otherDoc",
         {
           method: "POST",
           body: formData,
@@ -230,7 +230,7 @@ const Document = () => {
     console.log(newData);
     try {
       const response = await fetch(
-        "http://localhost:4000/api/submit-application",
+        "https://backend-visa2.vercel.app/api/submit-application",
         {
           method: "POST",
           headers: {
@@ -265,7 +265,7 @@ const Document = () => {
     ctx.setLoading(true);
     try {
       const response = await fetch(
-        "http://localhost:4000/api/delete/passport",
+        "https://backend-visa2.vercel.app/api/delete/passport",
         {
           method: "DELETE",
           headers: {
@@ -295,7 +295,7 @@ const Document = () => {
     ctx.setLoading(true);
     try {
       const response = await fetch(
-        "http://localhost:4000/api/delete/passport",
+        "https://backend-visa2.vercel.app/api/delete/passport",
         {
           method: "DELETE",
           headers: {
@@ -325,7 +325,7 @@ const Document = () => {
     ctx.setLoading(true);
     try {
       const response = await fetch(
-        "http://localhost:4000/api/delete/passport",
+        "https://backend-visa2.vercel.app/api/delete/passport",
         {
           method: "DELETE",
           headers: {

@@ -116,7 +116,7 @@ const TravelerDetails = () => {
       console.log(formData);
 
       try {
-        const response = await fetch("http://localhost:4000/api/traveler", {
+        const response = await fetch("https://backend-visa2.vercel.app/api/traveler", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

@@ -14,7 +14,7 @@ const VisaContextProvider = ({ children }) => {
   const setTravellerData = async (data) => {
     // console.log(data.id);
     setLoading(true);
-    const response = await fetch("http://localhost:4000/api/getTraveller", {
+    const response = await fetch("https://backend-visa2.vercel.app/api/getTraveller", {
       method: "POST",
       body: JSON.stringify({ id: data.id }),
       headers: {
