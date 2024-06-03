@@ -1,0 +1,28 @@
+.card00{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+}
+.mainHead {
+    text-align: center;
+    margin: 2rem;
+}
+.userInformation p{
+    color: black !important;
+}
+.countryBise{
+    padding: 0px 63px;
+}
+
+@media screen and (max-width:990px) {
+    .card00{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    
+}

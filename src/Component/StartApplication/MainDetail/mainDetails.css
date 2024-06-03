@@ -1,0 +1,130 @@
+.addOnsFullPage {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 1rem;
+}
+.FormMain {
+  padding: 15px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.ReviewPayment {
+  padding: 15px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.mainformAdd h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.mainformAdd p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  color: coral;
+}
+.DummyFlightTicket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.DummyFlightTicket h5 {
+  font-size: 1.2;
+  font-weight: 400;
+  margin: 1.2rem 0rem;
+}
+.DummyFlightTicket button {
+  border: none;
+  margin-left: 10px;
+  padding: 0px 5px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.DummyFlightTicket strong {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.PaymentBtn {
+  text-align: center;
+}
+.PaymentBtn .btn {
+  color: white;
+  background-color: #4285f4;
+}
+.NOmberOfTreveeler h5 {
+  font-weight: 400;
+  margin: 1.2rem 0rem;
+}
+.NOmberOfTreveeler h5 span {
+  font-weight: 400;
+  margin: 1.2rem 0rem;
+  margin-left: 1rem;
+  color: rgb(241, 94, 94);
+}
+.DummyFlightTicket .i_iconButton {
+  color: black !important;
+  background-color: white !important;
+  padding: 0px !important;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.mainPageBackbtn{
+  margin-top: 1.4rem;
+}
+
+@media screen and (max-width:890px) {
+  .addOnsFullPage {
+    display: flex;
+    gap: 3rem;
+    padding: 0px 15px;
+    
+  }
+  
+}
+@media screen and (max-width:690px) {
+  .addOnsFullPage {
+    display: flex;
+    gap: 3rem;    
+  }
+  .DummyFlightTicket {
+    gap: 0px;
+  }
+  .DummyFlightTicket h5{
+    font-size: 13px !important;
+    gap: 0px;
+  }
+  .DummyFlightTicket span{
+    font-size: 13px !important;
+  }
+  .btn {
+    font-size: .64rem;
+    padding: 0.3rem 1rem;
+    margin: 6px;
+  }
+  
+}
+@media screen and (max-width:599px) {
+  .main-content {
+    margin-top: 5rem;
+}
+  
+}
+@media screen and (max-width:490px) {
+  .main-content {
+    margin-top: 4.8rem;
+}
+  
+}
+@media screen and (max-width:390px) {
+  .main-content {
+    margin-top: 7.8rem;
+}
+  
+}

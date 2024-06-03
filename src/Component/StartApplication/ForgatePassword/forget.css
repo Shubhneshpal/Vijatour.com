@@ -1,0 +1,72 @@
+.outcard {
+    padding: 25px;
+    margin-left: 22%;
+    width: 50%;
+    box-shadow: 0 1px 2px 1px #ddd;
+    border-radius: 3px;
+
+}
+
+/* .card {
+    box-shadow: 0 1px 2px 1px #ddd;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+} */
+
+.inputsForget {
+    width: 93% !important;
+    color: #444 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 3px !important;
+    padding: 10px 10px !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    -ms-border-radius: 3px !important;
+    -o-border-radius: 3px !important;
+    margin-bottom: 1rem;
+}
+
+.btns {
+    background-color: #0050b1;
+    color: #fff;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.requestPass {
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.requestForm{
+    box-shadow: 0 1px 2px 1px #ddd;
+    padding: 38px;
+    margin-top: 2rem;
+}
+.requestForm h2{
+    font-weight: 400;
+    margin-bottom: 2rem;
+
+   
+}
+.requestForm button{
+    color: white;
+    border: none !important;
+    padding: 7px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #4285F4;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 30px;
+}

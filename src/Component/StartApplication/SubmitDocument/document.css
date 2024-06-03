@@ -1,0 +1,196 @@
+.form-white .form-control {
+    color: black !important;
+}
+
+.form-control {
+    padding: 0.5rem 5px 0.6rem !important;
+    border-radius: 3 px !important;
+    margin-bottom: 10px !important;
+   
+}
+.uplodFile {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.uplodFile .form-label {
+    margin-bottom: .5rem;
+    color: bal;
+    color: black;
+    font-weight: 500;
+    font-size: px;
+}
+  .form-white input[type=text] {
+    border: 1px solid #00000012 !important;
+    border-radius: 3px;
+    padding: 5px 6px;
+    color: black !important;
+    font-size: 15px;
+    height: 1.5rem !important;
+}
+.card .card-body p {
+    /* margin-bottom: 1rem; */
+    color: red;
+}
+.fullSubmit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .btn-outline-white {
+    border: none !important;
+    color: black!important;
+    background-color: cornsilk;
+    margin-top: 46px;
+}
+.travellarppp{
+    text-align: center;
+}
+.travellarppp p{
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.travellarppp p span {
+    padding: 12px;
+    background-color: wheat;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 20px;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+   
+}
+.travellarppp p span h4 {
+    font-weight: 500 !important;
+  line-height: 0px;
+  color: black !important;
+}
+
+.fullSubmit button svg{
+    font-size: 16px !important;
+}
+.Document_notice h4{
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.ad_button {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 15px;
+}
+.ad_button svg {
+    vertical-align: middle;
+    font-size: 2rem;
+    color: white;
+    background-color: red;
+    border-radius: 16px;
+}
+/* .buttonmanyDoc button{
+    margin-bottom: 20px !important;
+} */
+.col{
+    padding: 0px !important;
+}
+.getPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: unset;
+    flex-wrap: wrap;
+} 
+.photoName_ooo {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px !important;
+    background-color: unset;
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.photoName_ooo svg {
+    font-size: 25px;
+    color: red !important;
+    background-color: white;
+    border-radius: 22px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+.other_document12{
+    margin-top: 15px;
+}
+.col_ChoosePhoto{
+    margin-top: 10px !important;
+}
+.lableOfLabele{
+    padding: 5px;
+    background-color: black;
+    color: white !important;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.wave_light1{
+    margin-right: 5px !important;
+}
+.loginForm11{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.documentFile11{
+    width: 75% !important;
+}
+.fullSubmit .importantBtn {
+    margin-top: 0px !important;
+}
+.fullSubmit .btnBack1 .backBtn{
+    margin-bottom: 0rem !important;
+    padding: .62rem 2.13rem !important;
+}
+.fullSubmit .backBtn svg{
+    font-size: 1.2rem !important;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+
+
+/* media query start */
+
+@media screen and (max-width:790px) {
+    .btn {
+        font-size: .6rem;
+        padding: .5rem 1.13rem;       
+    }
+    .form-control {
+        padding: 0.2rem 5px 0.6rem !important;
+    }
+    
+}
+@media screen and (max-width:690px) {
+    .btn-outline-white {
+        margin-top: 46px !important;
+    }
+    
+}
+@media screen and (max-width:490px) {
+    .uplodFile {
+        display: inline-block;
+        align-items: center;
+        margin-top: 5px;
+        flex-wrap: wrap;
+    }
+    .btn-outline-white {
+        margin-top: 0px !important;
+    }
+    
+}

@@ -1,0 +1,38 @@
+.HeaderVlog .image-section {
+    display: none;
+}
+.HeaderVlog .main-content {
+    padding-bottom: 10px;
+}
+.Accordian_Box {
+    margin-top: 2rem;
+}
+
+.Accordian_Box .visaCard_content h4 {
+    background-color: #f2f2f7;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: red ;
+}
+
+.vlogimages img {
+    height: 80vh;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.accordianHeading h4{
+    font-weight: 500;
+}
+.travelerVlog p span {
+    font-size: 18px;
+    font-weight: 500;
+    color: green !important;
+}

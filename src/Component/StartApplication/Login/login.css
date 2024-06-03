@@ -1,0 +1,35 @@
+
+.style01 {
+    color: tomato;
+    font-size: 1rem;
+    padding-top: 5px !important;
+}
+.btn-close {
+    color: white !important;
+    background-color: white !important;
+    margin-right: -2.2rem !important;
+    margin-top: 2px !important;
+}
+.input_group .inputPass{
+    width: 95% !important;
+}
+.fName .inputPass55{
+    width: 90% !important;
+}
+.lName .inputPass55{
+    width: 90% !important;
+}
+.form-check-input {
+    width: 1.3em;
+    height: 1.3em;   
+    border:1px solid #00000042 !important;
+    margin-left: 0rem !important;
+    margin-top: 2px !important;
+}
+
+.forgat a {
+    font-size: 14px ;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
