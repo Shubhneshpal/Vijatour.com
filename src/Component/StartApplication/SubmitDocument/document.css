@@ -29,7 +29,6 @@
     height: 1.5rem !important;
 }
 .card .card-body p {
-    /* margin-bottom: 1rem; */
     color: red;
 }
 .fullSubmit {
@@ -92,9 +91,7 @@
     background-color: red;
     border-radius: 16px;
 }
-/* .buttonmanyDoc button{
-    margin-bottom: 20px !important;
-} */
+
 .col{
     padding: 0px !important;
 }

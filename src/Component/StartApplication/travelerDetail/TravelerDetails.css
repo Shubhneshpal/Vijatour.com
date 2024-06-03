@@ -66,9 +66,6 @@
      --bs-gutter-x: 1.5rem !important;
     
 }
-/* .main_pageLogin{
-    position: relative;    
-} */
 .loginForm{
     margin-top: 1rem;
     margin-left: 1rem;
@@ -137,50 +134,28 @@
     margin-bottom: 1.5rem;
 }
 
-/* .Suggest_animate p {
-    font-size: 17px;
-    color: black;
-    font-weight: 500;
-    animation: slideIn 2s ease-in-out infinite alternate;
-    -webkit-animation: slideIn 2s ease-in-out infinite alternate;
-} */
+
 .h4text h4{
     text-align: center;
     font-weight: 500;
     font-size: 20px;
     color: red;
 }
-  
-  /* @keyframes slideIn {
-    0% {
-      transform: translateX(0%);
-      -webkit-transform: translateX(0%);
-      -moz-transform: translateX(0%);
-      -ms-transform: translateX(0%);
-      -o-transform: translateX(0%);
-}
-    100% {
-      transform: translateX(20%);
-      -webkit-transform: translateX(11%);
-      -moz-transform: translateX(20%);
-      -ms-transform: translateX(20%);
-      -o-transform: translateX(20%);
-}
-  } */
+
  .cardContent2{
     margin-top: 12px;
  }
   .Amount_cardss {
     width: 100%;
     background-color: white !important;
-    position: relative; /* Ensure the card is the reference point for positioning */
-    overflow: hidden; /* Hide overflow content */
+    position: relative; 
+    overflow: hidden; 
   }
   
   .Suggest_animate {
     margin-bottom: 10px;
     width: 100%; 
-    position: relative; /* Position relative to contain the absolute child */
+    position: relative; 
    
   }
   
@@ -192,10 +167,10 @@
     font-size: 1rem;
     font-weight: 500;
     display: inline-block;
-    /*Allowthetexttoscroll*/position: absolute;
-    /*Positionabsolutelyrelativeto.Suggest_animate*/white-space: nowrap;
-    /*Preventtextfromwrappingtothenextline*/animation: scroll 12s linear infinite;
-    /*Scrollthetext*/transform: translateZ(0);
+   position: absolute;
+    white-space: nowrap;
+   animation: scroll 12s linear infinite;
+    transform: translateZ(0);
     -webkit-animation: scroll 12s linear infinite;
 }
 .btnBack1 .backBtn{
@@ -224,25 +199,6 @@
       -o-transform: translate3d(-100%, 0, 0);
 }
   }
-
-  /* @keyframes scroll {
-    0% {
-      transform: translateX(30);
-      -webkit-transform: translateX(30);
-      -moz-transform: translateX(30);
-      -ms-transform: translateX(30);
-      -o-transform: translateX(30);
-}
-    100% {
-      transform: translateX(-40%);
-    
-      -webkit-transform: translateX(-40%);
-      -moz-transform: translateX(-40%);
-      -ms-transform: translateX(-40%);
-      -o-transform: translateX(-40%);
-}
-  } */
-
 
  .addPerson{
     text-align: end;
@@ -295,21 +251,7 @@
     background-color: cornsilk;
     margin-top: 5px !important;
 }
-/* 
-@media screen and (max-width:890px) {
-    .roforsidth{
-        max-width: 500px !important;
-        width: 100% !important;
-    }
-    
-}
-@media screen and (max-width:890px) {
-    .roforsidth{
-        max-width: 500px !important;
-        width: 550px !important;
-    }
-    
-} */
+
      /* Custom CSS for media query */
      @media (max-width: 990px) {
         .custom-col {

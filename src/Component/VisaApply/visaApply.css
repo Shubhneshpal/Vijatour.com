@@ -6,7 +6,6 @@
 }
 .ViaApply_Header .css-13cymwt-control {  
     min-height: 48px !important;
-    /* border-radius: 0px; */
     border-top-right-radius: 0px !important;
     border-bottom-right-radius: 0px !important;   
 }
@@ -54,7 +53,6 @@
 }
 .quantity-picker {
     padding: 5px 4px;
-    /* background-image: linear-gradient(-106deg, #fbc393 0%, #f5576ce3 100%); */
     width: 9rem;
     text-align: center;
     border-radius: 17px;
@@ -101,9 +99,6 @@
     justify-content: flex-start;
     margin-left: 27px;
 }
-/* .incree-decreeButton {
-   
-} */
 .selected-date {
     font-size: 18px;
     margin-top: 1rem;
@@ -126,7 +121,7 @@
     
 .checkTotalAmount label{
     margin-left: 38px;
-    /* margin-top: 0.3rem; */
+   
 }
 
 .visaCard_content {
@@ -152,9 +147,6 @@
 }
 
 .quantity_text {
-    /* font-size: 24px;
-    margin-right: 5px;
-    font-weight: 400; */
     font-family: "PT Serif", serif;
 }
 .btn55 {
@@ -205,7 +197,7 @@
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     width: 100% !important;
-    /* margin: 1rem 1rem; */
+   
 }
 .border_bottom01 {
     border-bottom: 1px solid #fff;
@@ -261,11 +253,6 @@
     vertical-align: baseline;
     font-size: 16px !important;
 }
-/* .labeCheck{
-    color: black;
-    font-weight: 400;
-    font-family: "PT Serif", serif;
-} */
 .style01 {
     color: tomato;
     font-size: 1rem;
@@ -363,9 +350,6 @@
     .lName .inputPass55 {
         width: 95% ;
     }
-    /* .input_group .lName input{
-        margin-top: 11px;
-    } */
     .card {
         margin-bottom: 19px;
     }
